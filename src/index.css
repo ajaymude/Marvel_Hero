@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.hero {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./avengers.jpg");
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+.hero-banner {
+  text-align: center;
+  padding: 0 3rem;
+  color: #fff;
+}
+
+.hero-banner h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0.4rem;
+}
+
+.hero-banner p {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.input-bar {
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border: 4px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+.input-bar:hover {
+  background: #fff;
+  color: #000;
+}
+
+.hero-btn {
+  font-size: 1.25rem;
+  background-color: #fff;
+  color: rgb(118, 118, 118);
+  padding: 2px 24px;
+  text-decoration: none;
+  border: 4px solid #fff;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.card h4{
+  
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.3rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 1200px) {
+  .card img {
+    height: 360px;
+    width: 360px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card img {
+    height: 330px;
+    width: 335px;
+    padding: 5px;
+  }
+}
+
+.hero-btn:hover {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.character{
+  margin: 15px;
+  padding: 10px;
+}
+
+.character img {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+}
+
+
+.character h4 {
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 0.4rem;
+  color: rgb(254, 75, 75);
+}
+
+.character p {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.2rem;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
